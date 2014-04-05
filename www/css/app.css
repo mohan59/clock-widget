@@ -1,0 +1,88 @@
+@font-face {
+	font-family: timeZoneFont;
+	src: url(../fonts/Newtone.ttf);
+}
+
+@font-face {
+	font-family: dateTimeFont;
+	src: url(../fonts/Mentone.otf);
+}
+
+body {    
+    font-size: 12px;
+    margin: auto;
+	text-shadow: none;
+	background-color: #333;
+	background-repeat: no-repeat;
+	background-size: cover;	
+}
+
+#clockContainer {
+	background-color: #333;
+	border: 0;
+}
+
+a.clock-list-item .row {	
+	border: 2px #ff9900 solid;
+	border-radius: 5px;
+	border: 2px solid #dedede;
+	margin: 5px;
+	background: -webkit-linear-gradient(rgba(240, 2488, 255, 1), rgba(156, 189, 218, 1)); 
+	background: -moz-linear-gradient(rgba(240, 2488, 255, 1), rgba(156, 189, 218, 1)); 
+	background: -o-linear-gradient(rgba(240, 2488, 255, 1), rgba(156, 189, 218, 1)); 
+	background: linear-gradient(rgba(240, 2488, 255, 1), rgba(156, 189, 218, 1)); 
+	/* background-image: url('../img/new-york-panorama.png');
+	background-size: 312px 82px; */
+}
+
+a:hover {
+	color: #999;
+}
+
+.pad-left-5 {
+	padding: 0 0 0 5px;
+}
+
+.pad-right-5 {
+	padding: 0 5px 0 0;
+}
+
+.pad-left-10 {
+	padding: 0 0 0 10px;
+}
+
+.pad-right-10 {
+	padding: 0 10px 0 0;
+}
+
+.pad-top-10 {
+	padding: 10px 0 0 0;
+}
+
+.clock-city {
+	font-size: 1.6em;
+	text-align: left;
+	font-weight: bold;
+}
+
+.clock-time-date {
+	font-size: 1.2em;
+	text-align: right;
+}
+
+
+#timeZoneSelectorModal .tt-dropdown-menu {
+	max-height: 150px;
+	overflow-y: auto;
+	cursor: pointer;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	width: 100%;
+	margin-top: 8px;
+	padding: 8px 0;
+}
+
+#timeZoneSelectorModal .tt-dropdown-menu .tt-cursor {
+	background-color: #dedede;
+	color: #000;
+}

@@ -1,0 +1,39 @@
+{
+	"timeZones": [		
+		{
+			"timeZoneLabel": "New York (USA)",
+			"timeZoneId": "timeZone01",
+			"timeZoneOffset": "-5",
+			"timeZoneDST": "1",
+			"coordinates": "40.7127/-74.0059"
+		},
+		{
+			"timeZoneLabel": "London (UK)",
+			"timeZoneId": "timeZone02",
+			"timeZoneOffset": "0",
+			"timeZoneDST": "1",
+			"coordinates": "51.507222/-0.1275"
+		},
+		{
+			"timeZoneLabel": "Dubai (UAE)",
+			"timeZoneId": "timeZone03",
+			"timeZoneOffset": "+4",
+			"timeZoneDST": "0",
+			"coordinates": "25.25/55.3"
+		},
+		{
+			"timeZoneLabel": "New Delhi (IND)",
+			"timeZoneId": "timeZone04",
+			"timeZoneOffset": "+5.5",
+			"timeZoneDST": "0",
+			"coordinates": "28.61/77.23"
+		},
+		{
+			"timeZoneLabel": "Singapore (SIN)",
+			"timeZoneId": "timeZone05",
+			"timeZoneOffset": "+8",
+			"timeZoneDST": "0",
+			"coordinates": "1.3/103.8"
+		}
+	]
+}

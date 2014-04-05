@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Clock Widget</title>
+
+	<!-- jQuery UI -->
+	<link href="css/jquery-ui.css" rel="stylesheet" />
+	
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+	<link href="css/spacelab.min.css" rel="stylesheet" />
+	
+	<!-- Normalize for cross-browser -->
+	<link href="css/normalize.css" rel="stylesheet" />
+	
+	<!-- App -->
+	<link href="css/app.css" rel="stylesheet" />
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+   <!--  <h1 class="center-block app-header">world clock widget</h1> -->
+	
+	<div class="container-fluid">	
+		<div id="clockWidget" class="clock-widget">
+		
+			<!-- button group -->
+			<div class="center-block">
+				<button id="addClockBtn" class="btn btn-primary" type="button" data-toggle="tooltip" data-placement="right" title="" data-original-title="Add Clock">
+					<span class="glyphicon glyphicon-plus"></span> Add Clock					
+				</button>
+				
+				<button id="optionsBtn" class="btn btn-primary" type="button" data-toggle="tooltip" data-placement="right" title="" data-original-title="Options">
+					<span class="glyphicon glyphicon-cog"></span> Options	
+				</button>				
+			</div>
+			
+			<div id="timeZoneSelectorModal" class="modal fade bs-example-modal" tabindex="-1" role="dialog">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+							<h4 class="modal-title">Select a time-zone</h4>
+						</div>
+						<div class="modal-body">
+							<div id="timeZoneDropdownMenu">
+								<input id="timeZoneInput" class="typeahead" type="text" placeholder="Time-zones">
+							</div>
+						</div>
+						<div class="modal-footer">
+							<button id="btnAdd" type="button" class="btn btn-primary" data-dismiss="modal">Add</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div id="optionsModal" class="modal fade bs-example-modal" tabindex="-1" role="dialog">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal">&times;</button>
+							<h4 class="modal-title">Options</h4>
+						</div>
+						<div class="modal-body">
+							<div class="row">
+								<h5>12/24 hour</h5>
+								<div id="clockModeRadio" class="btn-group" data-toggle="buttons">								
+									<label class="btn btn-primary active">
+										<input type="radio" name="optionsClockMode" id="optionClockMode1" value="12" checked="true" > 12
+									</label>
+									<label class="btn btn-primary">
+										<input type="radio" name="optionsClockMode" id="optionClockMode2" value="24"> 24
+									</label>
+								</div>
+							</div>
+						</div>
+						<div class="modal-footer">
+							<button id="btnOptionsSave" type="button" class="btn btn-primary" data-dismiss="modal">SAVE</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			
+			<div id="clockContainer" class="list-group draggable ui-widget-content">
+				<!-- <a href="#" id="clock1" class="clock-list-item">
+					<div class="row">
+						<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6"><h2 class="city-name">Dubai</h2></div>
+						<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6"><div class="pull-right pad-top-10"><p class="clock-time-date">Sat Apr 5</p><p class="clock-time-date">12:01 PM</p></div></div>
+						<div class="clearfix"></div>
+					</div>
+				</a> -->
+			</div>
+			
+			<div id="errorModal" class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog">
+				<div class="modal-dialog modal-sm">
+					<div class="modal-content">
+						<!-- <div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+							<h4 class="modal-title">ERROR</h4>
+						</div> -->
+						<div class="modal-body">
+							<p></p>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-default" data-dismiss="modal">OK</button>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			
+			<div id="clockDeleteModal" class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog">
+				<div class="modal-dialog modal-sm">
+					<div class="modal-content">
+						<!-- <div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+							<h4 class="modal-title">Delete Clock</h4>
+						</div> -->
+						<div class="modal-body">
+							<p>Are you sure you want to delete clock?</p>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-default" data-dismiss="modal">No</button>
+							<button type="button" class="btn btn-primary btn-delete-clock">Yes</button>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			
+			<div id="clockAlreadyAddedModal" class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+				<div class="modal-dialog modal-sm">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+							<h4 class="modal-title">ERROR</h4>
+						</div>
+						<div class="modal-body">
+							<p></p>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-default" data-dismiss="modal">OK</button>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>		
+	</div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+	 <script src="js/jquery-ui.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+	<script src="js/typeahead/bloodhound.min.js"></script>
+	<script src="js/typeahead/typeahead.jquery.min.js"></script>
+	<script src="js/typeahead/typeahead.bundle.min.js"></script>
+	<script src="js/app.js"></script>
+	
+	<script>
+		$(document).ready(function(){
+			app.initApplication();
+		});
+	</script>
+  </body>
+</html>

@@ -1,0 +1,33 @@
+C:\xampp\htdocs\clock-widget\platforms\android\bin\ClockWidget.ap_ \
+ : C:\xampp\htdocs\clock-widget\platforms\android\res\drawable\icon.png \
+C:\xampp\htdocs\clock-widget\platforms\android\res\drawable-hdpi\icon.png \
+C:\xampp\htdocs\clock-widget\platforms\android\res\drawable-ldpi\icon.png \
+C:\xampp\htdocs\clock-widget\platforms\android\res\drawable-mdpi\icon.png \
+C:\xampp\htdocs\clock-widget\platforms\android\res\drawable-xhdpi\icon.png \
+C:\xampp\htdocs\clock-widget\platforms\android\res\values\strings.xml \
+C:\xampp\htdocs\clock-widget\platforms\android\res\xml\config.xml \
+C:\xampp\htdocs\clock-widget\platforms\android\bin\res\drawable\icon.png \
+C:\xampp\htdocs\clock-widget\platforms\android\bin\res\drawable-hdpi\icon.png \
+C:\xampp\htdocs\clock-widget\platforms\android\bin\res\drawable-ldpi\icon.png \
+C:\xampp\htdocs\clock-widget\platforms\android\bin\res\drawable-mdpi\icon.png \
+C:\xampp\htdocs\clock-widget\platforms\android\bin\res\drawable-xhdpi\icon.png \
+C:\xampp\htdocs\clock-widget\platforms\android\assets\www \
+C:\xampp\htdocs\clock-widget\platforms\android\assets\www\cordova.js \
+C:\xampp\htdocs\clock-widget\platforms\android\assets\www\cordova_plugins.js \
+C:\xampp\htdocs\clock-widget\platforms\android\assets\www\css \
+C:\xampp\htdocs\clock-widget\platforms\android\assets\www\img \
+C:\xampp\htdocs\clock-widget\platforms\android\assets\www\index - Copy.html \
+C:\xampp\htdocs\clock-widget\platforms\android\assets\www\index.html \
+C:\xampp\htdocs\clock-widget\platforms\android\assets\www\js \
+C:\xampp\htdocs\clock-widget\platforms\android\assets\www\css\index.css \
+C:\xampp\htdocs\clock-widget\platforms\android\assets\www\css\jquery.mobile-1.4.0.css \
+C:\xampp\htdocs\clock-widget\platforms\android\assets\www\css\jquery.mobile-1.4.0.min.css \
+C:\xampp\htdocs\clock-widget\platforms\android\assets\www\img\ajax-loader.gif \
+C:\xampp\htdocs\clock-widget\platforms\android\assets\www\img\logo.png \
+C:\xampp\htdocs\clock-widget\platforms\android\assets\www\js\cordova.js \
+C:\xampp\htdocs\clock-widget\platforms\android\assets\www\js\index.js \
+C:\xampp\htdocs\clock-widget\platforms\android\assets\www\js\jquery-2.1.0.js \
+C:\xampp\htdocs\clock-widget\platforms\android\assets\www\js\jquery-2.1.0.min.js \
+C:\xampp\htdocs\clock-widget\platforms\android\assets\www\js\jquery.mobile-1.4.0.js \
+C:\xampp\htdocs\clock-widget\platforms\android\assets\www\js\jquery.mobile-1.4.0.min.js \
+C:\xampp\htdocs\clock-widget\platforms\android\bin\AndroidManifest.xml \

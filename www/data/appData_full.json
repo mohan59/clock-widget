@@ -1,0 +1,144 @@
+{
+	"timeZones": [
+		{
+			"timeZoneLabel": "United States Minor Outlying Islands",
+			"timeZoneId": "timeZone01",
+			"timeZoneOffset": "-12"
+		},
+		{
+			"timeZoneLabel": "United States - Hawaii and American Samoa",
+			"timeZoneId": "timeZone02",
+			"timeZoneOffset": "-11"	
+		},
+		{
+			"timeZoneLabel": "New Zealand - Cook Islands",
+			"timeZoneId": "timeZone03",
+			"timeZoneOffset": "-10"
+		},
+		{
+			"timeZoneLabel": "French Polynesia",
+			"timeZoneId": "timeZone04",
+			"timeZoneOffset": "-9.5"
+		},
+		{
+			"timeZoneLabel": "United States - Alaska",
+			"timeZoneId": "timeZone05",
+			"timeZoneOffset": "-9"
+		},
+		{
+			"timeZoneLabel": "United States - Pacific",
+			"timeZoneId": "timeZone06",
+			"timeZoneOffset": "-8"
+		},
+		{
+			"timeZoneLabel": "United States - Mountain",
+			"timeZoneId": "timeZone07",
+			"timeZoneOffset": "-7"
+		},
+		{
+			"timeZoneLabel": "United States - Central",
+			"timeZoneId": "timeZone08",
+			"timeZoneOffset": "-6"
+		},
+		{
+			"timeZoneLabel": "United States - Eastern",
+			"timeZoneId": "timeZone09",
+			"timeZoneOffset": "-5"
+		},
+		{
+			"timeZoneLabel": "United States - Puerto Rico",
+			"timeZoneId": "timeZone10",
+			"timeZoneOffset": "-4"
+		},
+		{
+			"timeZoneLabel": "Argentina and Brazil",
+			"timeZoneId": "timeZone11",
+			"timeZoneOffset": "-3"
+		},
+		{
+			"timeZoneLabel": "Brazil - Fernando de Noronha Islands",
+			"timeZoneId": "timeZone12",
+			"timeZoneOffset": "-2"
+		},
+		{
+			"timeZoneLabel": "Portugal - Azores Islands",
+			"timeZoneId": "timeZone13",
+			"timeZoneOffset": "-1"
+		},
+		{
+			"timeZoneLabel": "UTC",
+			"timeZoneId": "timeZone14",
+			"timeZoneOffset": "0"
+		},
+		{
+			"timeZoneLabel": "Europe - Brussels/Madrid/Paris/Rome",
+			"timeZoneId": "timeZone15",
+			"timeZoneOffset": "+1"
+		},
+		{
+			"timeZoneLabel": "Europe - Athens, Istanbul, Kiev",
+			"timeZoneId": "timeZone16",
+			"timeZoneOffset": "+2"
+		},
+		{
+			"timeZoneLabel": "Africa and Middle East - Nairobi, Baghdad, Riyadh",
+			"timeZoneId": "timeZone17",
+			"timeZoneOffset": "+3"
+		},
+		{
+			"timeZoneLabel": "Europe and Middle East - Dubai, Moscow",
+			"timeZoneId": "timeZone18",
+			"timeZoneOffset": "+4"
+		},
+		{
+			"timeZoneLabel": "Asia - Karachi, Tashkent",
+			"timeZoneId": "timeZone19",
+			"timeZoneOffset": "+5"
+		},
+		{
+			"timeZoneLabel": "Asia - Colombo, Delhi",
+			"timeZoneId": "timeZone20",
+			"timeZoneOffset": "+5.5"
+		},
+		{
+			"timeZoneLabel": "Asia - Dhaka, Bhutan",
+			"timeZoneId": "timeZone21",
+			"timeZoneOffset": "+6"
+		},
+		{
+			"timeZoneLabel": "Asia - Bangkok, Jakarta, Hanoi",
+			"timeZoneId": "timeZone22",
+			"timeZoneOffset": "+7"
+		},
+		{
+			"timeZoneLabel": "Australasia - Kuala Lumpur, Perth, Singapore",
+			"timeZoneId": "timeZone23",
+			"timeZoneOffset": "+8"
+		},
+		{
+			"timeZoneLabel": "Asia - Seoul, Tokyo",
+			"timeZoneId": "timeZone24",
+			"timeZoneOffset": "+9"
+		},
+		{
+			"timeZoneLabel": "Australia and United States - Canberra, Guam",
+			"timeZoneId": "timeZone25",
+			"timeZoneOffset": "+10"
+		},
+		{
+			"timeZoneLabel": "Far East - Vladivostol, Solomon Islands",
+			"timeZoneId": "timeZone26",
+			"timeZoneOffset": "+11"
+		},
+		{
+			"timeZoneLabel": "New Zealand and Fiji",
+			"timeZoneId": "timeZone27",
+			"timeZoneOffset": "+12"
+		},
+		{
+			"timeZoneLabel": "Samoa and Tonga",
+			"timeZoneId": "timeZone28",
+			"timeZoneOffset": "+13"
+		}
+	]
+}
