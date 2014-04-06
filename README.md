@@ -23,8 +23,3 @@ Using the world clock widget, you can view:
 ### Copyright ###
 
 &copy; 2014 [mohash.net](http://www.mohash.net) All rights reserved
-
-<<<<<<< HEAD
-=======
-
->>>>>>> 7fc5ed813d917c1ebf4d2bd2f2c6ffe280baf977
